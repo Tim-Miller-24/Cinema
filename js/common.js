@@ -1,0 +1,1 @@
+"use strict";var burgerBtn=document.querySelector(".nav__burger"),navMenu=document.querySelector(".menu");burgerBtn.addEventListener("click",function(){navMenu.classList.toggle("active")}),document.addEventListener("click",function(e){navMenu.classList.contains("active")&&e.target!==burgerBtn&&"menu__link"!==e.target.className&&navMenu.classList.remove("active")});
